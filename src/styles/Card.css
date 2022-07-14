@@ -1,0 +1,101 @@
+.card {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 370px;
+  width: 420px;
+  border-radius: 10px;
+  transition: 0.3s;
+  margin: 15px;
+  background-color: whitesmoke;
+  list-style: none;
+  font-family: "Montserrat";
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  /*transition: opacity 0.3s linear 2s;*/
+}
+
+.card h1 {
+  font-size: 1.8rem;
+  color: #3f7cac;
+  letter-spacing: 1.2px;
+  font-family: "Bebas Neue", cursive;
+  padding-bottom: 10px;
+}
+
+.card h2 {
+  font-size: 1.1rem;
+  margin-bottom: 3px;
+}
+
+.card h3 {
+  font-size: 1rem;
+  margin-bottom: 3px;
+}
+
+.card h4 {
+  font-size: 0.8rem;
+}
+
+.card a {
+  color: whitesmoke;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  z-index: 2;
+}
+
+.card:hover .infos {
+  opacity: 1;
+  transform: scaleY(1);
+}
+
+.card .infos {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0px 25px;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  height: 100%;
+  max-width: 420px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+  opacity: 0;
+  transform: scaleY(0);
+  transition: 0.3s;
+}
+
+.card img {
+  height: 250px;
+  width: 350px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card p {
+  font-size: 15px;
+  text-align: justify;
+  white-space: pre-wrap;
+}
+
+.tools-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 280px;
+  margin: 10px 0px;
+}
+
+.tools-logo img {
+  height: 30px;
+  width: 30px;
+  margin: 0px 3px;
+  box-shadow: none;
+}
