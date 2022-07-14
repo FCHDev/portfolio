@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d1dd6de3.css",
+    "main.js": "/static/js/main.3a242bb6.js",
+    "static/media/PP_2022.jpg": "/static/media/PP_2022.98e80a4dc42918e89c40.jpg",
+    "static/media/site-bali.png": "/static/media/site-bali.5399729ed6e851a01a1e.png",
+    "static/media/site-pizzamama.png": "/static/media/site-pizzamama.4aed8d0654bbf3d5339b.png",
+    "static/media/sliderPhotos.png": "/static/media/sliderPhotos.f5eee2dea20e0cbaef06.png",
+    "static/media/maison-jungle.png": "/static/media/maison-jungle.f38fd9d142cba9b9b082.png",
+    "static/media/app-cooking.png": "/static/media/app-cooking.bf0ebcac961acc774577.png",
+    "static/media/app-meteo.png": "/static/media/app-meteo.726d90a1ec46d44a4132.png",
+    "static/media/react.png": "/static/media/react.2f2532db663fd5ec5f95.png",
+    "static/media/multi-languages.png": "/static/media/multi-languages.3e4006c33bf94f4b0e5d.png",
+    "static/media/app-countries-flag.png": "/static/media/app-countries-flag.089ce4bab8a0efcb94bc.png",
+    "static/media/chrono.png": "/static/media/chrono.2616519107528a512233.png",
+    "static/media/PP_2022_bis.jpg": "/static/media/PP_2022_bis.eb500ba70f22f758943a.jpg",
+    "static/media/html.png": "/static/media/html.1d7b133e22ffe4829da6.png",
+    "static/media/css.png": "/static/media/css.9f33c557b92e4e2e1cc8.png",
+    "static/media/javascript.png": "/static/media/javascript.1707d09a3f6f31bb97e8.png",
+    "static/media/django.png": "/static/media/django.4c399895f677cd3bfbc8.png",
+    "static/media/python.png": "/static/media/python.13b1bb48409725e459a6.png",
+    "index.html": "/index.html",
+    "main.d1dd6de3.css.map": "/static/css/main.d1dd6de3.css.map",
+    "main.3a242bb6.js.map": "/static/js/main.3a242bb6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d1dd6de3.css",
+    "static/js/main.3a242bb6.js"
+  ]
+}
