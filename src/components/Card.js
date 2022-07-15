@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/Card.css";
+import githublogo from "../assets/logos/github.png";
 
 const Card = ({
   name,
@@ -8,6 +9,7 @@ const Card = ({
   description,
   api,
   apiUrl,
+  git,
   toolsLogo,
   toolsLogo2,
   toolsLogo3,
@@ -41,7 +43,7 @@ const Card = ({
 
       {/*  Verso de la carte projet*/}
       <div className="infos">
-        <h2>{name}</h2>
+        <h2 style={{ paddingBottom: "5px" }}>{name}</h2>
         <p>{description}</p>
         <br />
         <p>
@@ -56,6 +58,19 @@ const Card = ({
             Accès au projet
           </a>
         </h3>
+        {git ? (
+          <h3>
+            <a href={git} rel="noopener noreferrer" target="_blank">
+              <img
+                src={githublogo}
+                alt="logo github"
+                style={{ width: "30px", height: "auto" }}
+              />
+            </a>
+          </h3>
+        ) : (
+          ""
+        )}
       </div>
     </li>
   );

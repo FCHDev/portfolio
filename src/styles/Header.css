@@ -6,16 +6,23 @@
   background-image: radial-gradient(
       circle,
       rgba(17, 18, 19, 0.9) 35%,
-      rgba(75, 168, 209, 0.3) 100%
+      rgba(75, 168, 209, 0.3) 120%
     ),
-    url("https://images.unsplash.com/photo-1560457079-9a6532ccb118?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2874&q=80");
+    url("https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270&q=80");
 
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
   font-size: 1.5em;
-  font-family: "Montserrat";
+  font-family: "Montserrat", serif;
+}
+
+.text-and-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 h1 {
@@ -36,7 +43,7 @@ p {
 
 .profile {
   border-radius: 50%;
-  width: 6%;
+  width: 180px;
   height: auto;
   margin: 15px 0;
 }

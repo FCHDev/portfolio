@@ -11,7 +11,7 @@
   margin: 15px;
   background-color: whitesmoke;
   list-style: none;
-  font-family: "Montserrat";
+  font-family: "Montserrat", serif;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   /*transition: opacity 0.3s linear 2s;*/
 }
@@ -98,4 +98,10 @@
   width: 30px;
   margin: 0px 3px;
   box-shadow: none;
+}
+
+.github-logo img {
+  margin: 8px 0;
+  min-width: 0.8vw;
+  height: auto;
 }

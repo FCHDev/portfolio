@@ -13,7 +13,9 @@ const Playground = () => {
           ({
             name,
             id,
+            type,
             url,
+            git,
             cover,
             description,
             api,
@@ -26,8 +28,10 @@ const Playground = () => {
             <Card
               key={id}
               cover={cover}
+              type={type}
               name={name}
               url={url}
+              git={git}
               description={description}
               api={api}
               apiUrl={apiUrl}

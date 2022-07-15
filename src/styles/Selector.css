@@ -1,23 +1,62 @@
 .container {
-    width: 80%;
-    height: 5%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 1px;
-
+  width: 80%;
+  height: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1px;
+  font-family: "Montserrat", serif;
+}
+.by-techno,
+.by-type {
+  border-radius: 7px;
+  margin: 5px;
 }
 
-input {
-    margin: 20px 10px;
-    padding: 5px;
-    min-width: 5vw;
-    height: 4vh;
-    background: #162B3C;
-    color: #e8dbc5;
-    font-size: 1rem;
-    font-weight: bold;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+.by-techno {
+  border: 1px solid #162b3c;
+}
+
+.by-type {
+  border: 1px solid #e79823;
+}
+
+.title-sort-techno,
+.title-sort-type {
+  text-align: center;
+  margin-top: 3px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.by-type input,
+.by-techno input {
+  margin: 10px 10px;
+  padding: 5px;
+  width: 12vw;
+  height: 4vh;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: "Montserrat", serif;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.by-techno input {
+  background: #162b3c;
+  color: #e8dbc5;
+}
+.by-techno input:hover {
+  background: #e79823;
+  color: #162b3c;
+}
+
+.by-type input {
+  background: #e79823;
+  color: #162b3c;
+}
+.by-type input:hover {
+  background: #162b3c;
+  color: #e8dbc5;
 }

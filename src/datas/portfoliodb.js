@@ -8,6 +8,7 @@ import sliderPhotos from "../assets/img/sliderPhotos.png";
 import multiLangues from "../assets/img/multi-languages.png";
 import maisonJungle from "../assets/img/maison-jungle.png";
 import chrono from "../assets/img/chrono.png";
+import agency from "../assets/img/web-agency.png";
 
 // LOGOS
 import html from "../assets/logos/html.png";
@@ -22,6 +23,7 @@ export const portfoliodb = [
     name: "App Météo",
     author: "François Chevalier",
     id: "01js",
+    type: "App",
     year: "2021",
     url: "https://weatherapp.fch80.com/",
     cover: appMeteo,
@@ -39,6 +41,7 @@ export const portfoliodb = [
     name: "App Cooking",
     author: "François Chevalier",
     id: "01re",
+    type: "App",
     year: "2022",
     url: "http://cooking-app.fch80.com/",
     cover: appCooking,
@@ -56,8 +59,10 @@ export const portfoliodb = [
     name: "Site touristique Bali",
     author: "François Chevalier",
     id: "01ht",
+    type: "Site",
     year: "2022",
     url: "http://site-bali.fch80.com/",
+    git: "https://github.com/FCHDev/site-bali",
     cover: siteBali,
     tools: ["HTML-CSS"],
     toolsLogo: html,
@@ -71,8 +76,10 @@ export const portfoliodb = [
     name: "App Countries Flags",
     author: "François Chevalier",
     id: "02re",
+    type: "App",
     year: "2022",
     url: "http://countries-flags-app.fch80.com/",
+    git: "https://github.com/FCHDev/countries-watcher",
     cover: appCountries,
     tools: ["React-JS"],
     toolsLogo: html,
@@ -88,6 +95,7 @@ export const portfoliodb = [
     name: "Site Pizza Mama",
     author: "François Chevalier",
     id: "01dj",
+    type: "Site",
     year: "2022",
     url: "https://fchpizzamamadjango.herokuapp.com/",
     cover: pizzaMama,
@@ -104,6 +112,7 @@ export const portfoliodb = [
     name: "Feature : Slider Photos",
     author: "François Chevalier",
     id: "03re",
+    type: "Feature",
     year: "2022",
     url: "http://photoslider.fch80.com/",
     cover: sliderPhotos,
@@ -119,6 +128,7 @@ export const portfoliodb = [
     name: "Feature : Site multi-langues",
     author: "François Chevalier",
     id: "04re",
+    type: "Feature",
     year: "2022",
     url: "http://multilanguages.fch80.com/",
     cover: multiLangues,
@@ -134,6 +144,7 @@ export const portfoliodb = [
     name: "Site e-commerce : La Maison Jungle",
     author: "François Chevalier",
     id: "05re",
+    type: "App",
     year: "2022",
     url: "http://maison-jungle.fch80.com/",
     cover: maisonJungle,
@@ -149,6 +160,7 @@ export const portfoliodb = [
     name: "App Chrono",
     author: "François Chevalier",
     id: "06re",
+    type: "App",
     year: "2022",
     url: "http://chrono-react.fch80.com/",
     cover: chrono,
@@ -158,6 +170,23 @@ export const portfoliodb = [
     toolsLogo3: react,
     language: "Fr",
     description:
-      "Application type 'Pomodoro' permettant de gérer sa productivité entre des phases 'actives et des phases de 'break'.",
+      "Application type 'Pomodoro' permettant de gérer sa productivité en alternant des phases 'actives et des phases de 'break'.",
+  },
+  {
+    name: "Site vitrine Agence Web",
+    author: "François Chevalier",
+    id: "07re",
+    type: "Site",
+    year: "2022",
+    url: "http://web-agency.fch80.com/",
+    git: "https://github.com/FCHDev/web-agency",
+    cover: agency,
+    tools: ["React-JS"],
+    toolsLogo: html,
+    toolsLogo2: css,
+    toolsLogo3: react,
+    language: "Fr",
+    description:
+      "Site vitrine d'une agence web fictive présentant : Navigation, Portfolio, Formulaire de contact. Animations et transitions (React Framer Motion)",
   },
 ];
