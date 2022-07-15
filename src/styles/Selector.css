@@ -60,3 +60,46 @@
   background: #162b3c;
   color: #e8dbc5;
 }
+
+@media screen and (max-width: 428px) {
+  .container {
+    width: 95%;
+    align-items: start;
+  }
+  .by-techno,
+  .by-type {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: none;
+  }
+
+  .by-type input,
+  .by-techno input {
+    margin: 10px 10px;
+    padding: 5px;
+    width: 38vw;
+    height: 6vh;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .by-type input,
+  .by-techno input {
+    margin: 5px 5px;
+    padding: 5px;
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .by-type input,
+  .by-techno input {
+    margin: 5px 5px;
+    padding: 5px;
+    font-size: 0.85rem;
+    width: 42vw;
+    height: 8vh;
+  }
+}

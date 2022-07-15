@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/Card.css";
 import githublogo from "../assets/logos/github.png";
+import { motion } from "framer-motion";
 
 const Card = ({
   name,
@@ -15,6 +16,26 @@ const Card = ({
   toolsLogo3,
   toolsLogo4,
 }) => {
+  //  Mise en place des animations d'apparition de cartes
+  const variants = {
+    initial: {
+      opacity: 0,
+      transition: { duration: 2 },
+    },
+    visible: {
+      opacity: 1,
+    },
+    exit: {
+      opacity: 0.5,
+      transition: { duration: 2 },
+    },
+  };
+
+  const transition = {
+    ease: [0.03, 0.87, 0.73, 0.9],
+    duration: 0.6,
+  };
+
   //  les const logo3 et logo4 permettent d'afficher OU NON le 3ème et 4ème logo (s'ils existent) d'un projet
   const logo3 = toolsLogo3 ? (
     <img src={toolsLogo3} alt="logo technologie utilisée" />
@@ -28,7 +49,14 @@ const Card = ({
   );
 
   return (
-    <li className="card">
+    <motion.li
+      className="card"
+      initial="initial"
+      animate="visible"
+      exit="exit"
+      transition={transition}
+      variants={variants}
+    >
       {/*  Recto de la carte projet*/}
       <h1 style={{ textAlign: "center" }}>{name}</h1>
       <a href={url} rel="noopener">
@@ -72,7 +100,7 @@ const Card = ({
           ""
         )}
       </div>
-    </li>
+    </motion.li>
   );
 };
 
